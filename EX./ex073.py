@@ -1,0 +1,13 @@
+time = ('Atletico', 'Botafogo', 'Corinthians', 'Gremio',
+        'Santos', 'Sao Paulo', 'Bahia', 'Avai')
+print('-=-'*15)
+print(f'Lista de Times do Brasileirao: {time}')
+print('-=-'*15)
+print(f'Os 5 primeiros sao: {time[0:5]}')
+print('-=-'*15)
+print(f'Os 4 ultimos sao:{time[-4:]}')
+print('-=-'*15)
+print(f'Times em ordem alfabetica: {sorted(time)}')
+print('-=-'*15)
+print(f' O Avai esta na {time.index("Avai")+1} posicao.')
+print('-=-'*15)
